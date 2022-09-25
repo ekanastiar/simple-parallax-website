@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+
+    <!-- my style css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Prompt:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- website paralax -->
+    <div id="scene">
+        <div data-depth-y="1" class="huruf-satu">F</div>
+        <div data-depth-y="1.6" class="huruf-dua">O</div>
+        <div data-depth-y=".5" class="huruf-tiga">O</div>
+        <div data-depth-y="1.1" class="huruf-empat">D</div>
+        <div data-depth="0.3"><img src="aset/burger.png" alt="" class="burger"></div>
+        <div data-depth="0.5"><img src="aset/roti.png" alt="" class="roti"></div>
+        <div data-depth="0.5"><img src="aset/sayur.png" alt="" class="sayur"></div>
+        <div data-depth="0.3"><img src="aset/telur.png" alt="" class="telur"></div>
+        <div data-depth-y="0.5"><img src="aset/ubi.png" alt="" class="ubi"></div>
+        <div data-depth="0.3"><img src="aset/wortel.png" alt="" class="wortel"></div>
+    </div>
+
+
+    <!-- java script in the paralax.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene, {
+            relativeInput: true
+        });
+    </script>
+</body>
+
+</html>

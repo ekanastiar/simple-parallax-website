@@ -1,0 +1,92 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+#scene {
+    margin-left: -30px;
+}
+
+
+/* style text */
+
+.huruf-satu {
+    margin-top: 260px;
+    margin-left: 500px;
+    font-size: 120px;
+    width: 100px;
+    z-index: 1;
+    text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.huruf-dua {
+    margin-left: 600px;
+    font-size: 120px;
+    width: 100px;
+    z-index: 0;
+    text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.huruf-tiga {
+    margin-left: 720px;
+    font-size: 120px;
+    width: 100px;
+    z-index: 1;
+    text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.huruf-empat {
+    margin-left: 830px;
+    font-size: 120px;
+    width: 100px;
+    z-index: 1;
+    text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+/* style makanan */
+
+.burger {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 120px;
+    z-index: 0;
+}
+
+.roti {
+    width: 120px;
+    position: absolute;
+    left: 600px;
+    top: 120px;
+    z-index: 999;
+}
+
+.sayur {
+    width: 120px;
+    position: absolute;
+    left: 550px;
+    top: -80px;
+    z-index: -99;
+}
+
+.telur {
+    width: 120px;
+    position: absolute;
+    left: 680px;
+    top: -60px;
+}
+
+.ubi {
+    position: absolute;
+    width: 102px;
+    left: 800px;
+    top: 110px;
+}
+
+.wortel {
+    width: 130px;
+    left: 875px;
+    top: 2px;
+    position: absolute;
+}
